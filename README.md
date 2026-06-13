@@ -111,6 +111,28 @@ To detect early signs of potential churn, one must first develop a holistic view
 > Customers with higher Monthly Charges are also more likely to churn.<br>
 > New customers are more likely to churn.
 
+### 12. Partner distribution:
+> ![Partner distribution](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/partners.PNG?raw=true)
+> Customers without a partner are more likely to churn.
+
+### 13. Phone Service:
+> ![Phone Service distribution](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/PhoneService.PNG?raw=true)
+> Churn rate is very similar for customers with or without Phone Service.
+
+### 14. Correlation Analysis:
+> ![Correlation Matrix](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/correlation%20matrix.png?raw=true)
+> ![Correlation Matrix 2](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/correlation%20matrix2.png?raw=true)
+> ![Correlation with Churn](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/correlation%20with%20churn.PNG?raw=true)
+
+### 15. Density Distribution:
+> Density distribution plots for numerical features across target classes.
+> ![Density distribution 1](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/density%20distribution%20graph.png?raw=true)
+> ![Density distribution 2](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/density%20distribution%20graph.2png.png?raw=true)
+> ![Density distribution 3](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/density%20distribution%20graph3.png?raw=true)
+> ![Density distribution 4](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/density%20distribution%20graph4.png?raw=true)
+> ![Density distribution 5](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/density%20distribution%20graph5.png?raw=true)
+> ![Density distribution 6](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/density%20distribution%20graph6.png?raw=true)
+
 ## Machine Learning Model Evaluations and Predictions:
 ![ML Algorithms](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/Model%20evaluation.PNG?raw=true)
 
@@ -126,6 +148,18 @@ To detect early signs of potential churn, one must first develop a holistic view
 ![Voting Classifier](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/Voting%20Classifier.PNG?raw=true)
 
 ![Confusion Matrix](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/confusion_matrix_models.PNG?raw=true)
+
+#### Model Comparison Metrics & Tuning:
+* **Optimal number of trees for Random Forest**:
+  ![Optimal Trees](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/optimal%20number%20of%20trees%20for%20random%20forest.png?raw=true)
+* **Accuracy Score Comparison**:
+  ![Accuracy Comparison](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/Accuracy%20score%20comparison.PNG?raw=true)
+* **ROC AUC Comparison**:
+  ![ROC AUC Comparison](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/ROC%20AUC%20comparison.PNG?raw=true)
+  ![ROC AUC Comparison 14](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/ROC%20AUC%20comparison14.PNG?raw=true)
+* **Randomized Search CV Tuning**:
+  ![RandomizedSearchCV](https://github.com/Vansh-Varshney-07/Telecom-Customer-Churn-prediction/blob/main/output/RandomizedSearchCV.png?raw=true)
+
 #### Final Model: Voting Classifier
 * We have selected Gradient boosting, Logistic Regression, and Adaboost for our Voting Classifier.
 ```
